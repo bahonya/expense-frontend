@@ -1,0 +1,17 @@
+.home-wrapper{
+    grid-area: c;
+    background-color: aliceblue;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "T P";
+    grid-template-columns: 6fr, 4fr;
+  }
+  .header img{
+    width: 200px;
+  }
+  .header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
